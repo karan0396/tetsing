@@ -1,0 +1,4 @@
+What is Git Squash ?
+- To "squash" in Git means to combine multiple commits into one. 
+- You can do this at any point in time (by using Git's "Interactive Rebase" feature), though it is most often done when merging branches. 
+- Please note that there is no such thing as a stand-alone git squash command.
