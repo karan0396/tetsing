@@ -1,0 +1,24 @@
+What is git Stash, Pop and apply? Difference  between these?
+Assuming we're working on master branch and have a file hello.txt that contains "Hello" string.
+
+Let's modify the file and add " world" string to it. Now you want to move to a different branch to fix a minor bug you've just found, so you need to stash your changes:
+
+git stash
+You moved to the other branch, fixed the bug and now you're ready to continue working on your master branch, so you pop the changes:
+
+git stash pop
+Now if you try to review the stash content you'll get:
+
+$ git stash show -p
+No stash found.
+However, if you use git stash apply instead, you'll get the stashed content but you'll also keep it:
+
+$ git stash show -p
+diff --git a/hello.txt b/hello.txt
+index e965047..802992c 100644
+--- a/hello.txt
++++ b/hello.txt
+@@ -1 +1 @@
+-Hello
++Hello world
+So pop is just like stack's pop - it actually removes the element once it's popped, while apply is more like peek.
