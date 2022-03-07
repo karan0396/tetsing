@@ -1,0 +1,3 @@
+What is cherrypicking?
+- You can cherry-pick a commit on one branch to create a copy of the commit with the same changes on another branch. 
+- If you commit changes to the wrong branch or want to make the same changes to another branch, you can cherry-pick the commit to apply the changes to another branch.
