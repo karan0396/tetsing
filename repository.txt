@@ -1,0 +1,6 @@
+What is a repository ? and How it is different from a branch ?
+A Git repository is the . git/ folder inside a project. 
+This repository tracks all changes made to files in your project, building a history over time. Meaning, if you delete the . git/ folder, then you delete your project's history. 
+Repository is your whole project (directories and files) that you clone on your computer. 
+A branch is a version of your repository, or in other words, an independent line of development. 
+A repository can contain multiple branches, which means there are multiple versions of the repository.
