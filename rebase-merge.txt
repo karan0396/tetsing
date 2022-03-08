@@ -4,3 +4,7 @@ What is the difference between rebase and git merge?
 
 Rebase:
 - Git rebase is a command that allows developers to integrate changes from one branch to another.
+
+
+
+bete mauz krdi
